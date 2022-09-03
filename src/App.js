@@ -1,4 +1,5 @@
 import './App.css';
+import {Contact, Footer} from './sections';
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 
@@ -47,7 +48,8 @@ function App() {
       </div>
       {/*<!-- End Hero -->*/}
 
-
+      <Contact />
+      <Footer />
       
     </div>
   );
